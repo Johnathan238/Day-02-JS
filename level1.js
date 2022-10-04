@@ -1,53 +1,72 @@
-let named =  '30 Days Of JavaScript'
-console.log(named)
-console.log(named.length)
+// let named =  '30 Days Of JavaScript'
+// console.log(named)
+// console.log(named.length)
 
-let newNamed = named.toUpperCase()
-console.log(newNamed)
 
-let lowNamed = named.toLowerCase()
-console.log(lowNamed)
+// let newNamed = named.toUpperCase()
+// console.log(newNamed)
 
-let subStrOrSubString = named.substring(3, 7)
-console.log(subStrOrSubString)
+// let lowNamed = named.toLowerCase()
+// console.log(lowNamed)
 
-let newSlice = named.slice(3,7)
-console.log(newSlice)
+// let subStrOrSubString = named.substring(3, 7)
+// console.log(subStrOrSubString)
 
-let checkWord = named.includes('Script')
-console.log(checkWord)
+// let newSlice = named.slice(3,7)
+// console.log(newSlice)
 
-let splitWord = named.split()
-console.log(splitWord)
+// let checkWord = named.includes('Script')
+// console.log(checkWord)
 
-let splitSpace = named.split("")
-console.log(splitSpace)
+// let splitWord = named.split()
+// console.log(splitWord)
 
-let companies = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
-console.log(companies.split(' '))
+// let splitSpace = named.split("")
+// console.log(splitSpace)
 
-let replaceName = named.replace('JavaScript', 'Python')
-console.log(replaceName)
+// let companies = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+// console.log(companies.split(' '))
 
-let checkIndex = named.charAt(15)
-console.log(checkIndex)
+// let replaceName = named.replace('JavaScript', 'Python')
+// console.log(replaceName)
 
-let codeName = named.charCodeAt(11)
-console.log(codeName)
+// let checkIndex = named.charAt(15)
+// console.log(checkIndex)
 
-let nameIndexOf = named.indexOf('a')
-console.log(nameIndexOf)
+// let codeName = named.charCodeAt(11)
+// console.log(codeName)
 
-let nameLastOf = named.lastIndexOf('a')
-console.log(nameLastOf)
+// let nameIndexOf = named.indexOf('a')
+// console.log(nameIndexOf)
 
-let newLastOf = 'You cannot end a sentence with because because because is a conjunction'
+// let nameLastOf = named.lastIndexOf('a')
+// console.log(nameLastOf)
 
-let findIndeOf = newLastOf.indexOf('because')
-console.log(findIndeOf)
+// let newLastOf = 'You cannot end a sentence with because because because is a conjunction'
 
-let findLastOfi = newLastOf.lastIndexOf('because')
-console.log(findLastOfi)
+// let findIndeOf = newLastOf.indexOf('because')
+// console.log(findIndeOf)
 
-let searchNewIndex = newLastOf.search('because')
-console.log(searchNewIndex)
+// let findLastOfi = newLastOf.lastIndexOf('because')
+// console.log(findLastOfi)
+
+// let searchNewIndex = newLastOf.search('because')
+// console.log(searchNewIndex)
+
+// let trimNew = named.trim()
+// console.log(trimNew)
+
+// let startName = named.startsWith('30')
+// console.log(startName)
+
+// let endName = named.endsWith('JavaScript', 21)
+// console.log(endName)
+
+// let matchName = named.match('a')
+// console.log(matchName)
+
+// let concatName = '30'
+// console.log(concatName.concat("Days", "Of", "JavaScript"))
+
+// let repeatName = named.repeat(2)
+// console.log(repeatName)
